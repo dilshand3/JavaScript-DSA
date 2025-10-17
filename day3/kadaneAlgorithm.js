@@ -4,9 +4,9 @@ function maxSubArray(nums) {
         for (let j = i; j < nums.length; j++) {
             let subArray = [];
             for (let k = i; k <= j; k++) {
-                subArray.push(nums[k]);
+                subArray.push(nums[k])
             }
-            console.log(subArray);
+            console.log(subArray)
         }
     }
 }
